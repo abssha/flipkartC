@@ -165,7 +165,7 @@ h_a4.style.paddingLeft="40px";
 
 function myFun()
 {
-    if(query6.matches)
+    if(query5.matches)
     {
         h_input.style.width="270px";
         h_a_top.style.margin="0px 45px";
@@ -190,16 +190,6 @@ function myFun()
         a3_span.style.paddingLeft="2px";
         h_a4.style.paddingLeft="12px";
         a4_img.style.height="19px";
-    }
-    else if(query5.matches)
-    {
-        h_input.style.width="100px";
-        h_input.style.fontSize="16px";
-        h_button.style.fontSize="16px";
-        h_a1.style.paddingLeft="70px";
-        h_a2.style.paddingLeft="20px";
-        h_a3.style.paddingLeft="20px";
-        h_a4.style.paddingLeft="20px";
     }
     else if(query4.matches)
     {
@@ -256,7 +246,6 @@ var query2=window.matchMedia("(max-width : 992px)");
 var query3=window.matchMedia("(max-width : 867px)");
 var query4=window.matchMedia("(max-width : 695px)");
 var query5=window.matchMedia("(max-width : 570px)");
-var query6=window.matchMedia("(max-width : 390px)");
 
 myFun();
 
@@ -277,10 +266,6 @@ query4.addEventListener("change",function()
     myFun();
 });
 query5.addEventListener("change",function()
-{
-    myFun();
-});
-query6.addEventListener("change",function()
 {
     myFun();
 });
