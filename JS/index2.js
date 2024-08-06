@@ -68,7 +68,7 @@ a1_img.setAttribute('src','./IMG/profile.svg');
 a1_img2.setAttribute('src','./IMG/chevrond.svg');
 a2_img.setAttribute('src','./IMG/cart.svg');
 a3_img.setAttribute('src','./IMG/Store.svg');
-a4_img.setAttribute('src','./IMG/_3verticalDots.svg');
+a4_img.setAttribute('src','./IMG/verticalDots.svg');
 
 h_div_top.append(h_input);
 h_a_top.append(img);
