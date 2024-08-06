@@ -256,7 +256,7 @@ var query2=window.matchMedia("(max-width : 992px)");
 var query3=window.matchMedia("(max-width : 867px)");
 var query4=window.matchMedia("(max-width : 695px)");
 var query5=window.matchMedia("(max-width : 570px)");
-var query6=window.matchMedia("(max-width : 331px)");
+var query6=window.matchMedia("(max-width : 390px)");
 
 myFun();
 
